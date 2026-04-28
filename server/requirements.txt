@@ -1,0 +1,4 @@
+# Server dependencies
+websockets>=12.0
+python-dotenv>=1.0
+aiohttp>=3.9  # For DeepSeek API calls (Phase 2)

@@ -1,0 +1,25 @@
+# ── Firmware ───────────────────────────────────────────────────────
+# Secrets (never commit)
+firmware/cores3-se/src/secrets.h
+
+# PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Server ─────────────────────────────────────────────────────────
+server/.env
+server/__pycache__/
+server/*.pyc
+
+# ── General ────────────────────────────────────────────────────────
+*.log
+.DS_Store
+Thumbs.db
